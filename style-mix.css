@@ -1,0 +1,72 @@
+body {
+    background: var(--color-global-bg);
+    color: var(--color-global-text);
+
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    /* border: var(--stroke-weight-light) solid yellow; */
+}
+
+/* .one {
+    padding-block: var(--space-m);
+    border: var(--stroke-weight-light) solid var(--color-light);;
+} */
+/* 480px */
+/* @media (min-width: 30em) { 
+    .one {
+         padding-block-start: var(--space-xl);
+    }
+} */
+
+/* .two {
+    padding-block: var(--space-m);
+}
+
+.three {
+    padding-block: var(--space-m);
+    border: var(--stroke-weight-light) solid var(--color-light);
+} */
+
+/* ==================================================================== */ 
+body, h1, h2, h3, h4, p, ul, ol, li, dd, figure, figcaption, dl, dd, dt {
+    /* margin: 0px; */
+    padding: 0px;
+}
+ul[class], ol[class] {
+    list-style: none;
+}
+
+/* AUTO GRID
+  Set the minimum item size with `--auto-grid-min-size` and 
+  get a fully responsive grid with no media queries.
+*/
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
+    grid-gap: 1rem;
+  }
+  
+  /* WRAPPER:A utility with a max width that contains child elements and horizontal centers them */
+  .wrapper {
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Presentational styles */
+  body {
+    padding: 1rem;
+    line-height: 1.4;
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+
+  }
+  
+  li {
+    padding: 5rem 1rem;
+    text-align: center;
+    background: hwb(10 0% 55%);
+    list-style-type: none;
+  }

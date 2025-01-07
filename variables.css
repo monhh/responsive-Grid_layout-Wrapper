@@ -51,6 +51,7 @@
     /* ----------------------------------
     wrapper 
     ---------------------------------- */
-    --wrapper-max-width: 1680px;
+    /* --wrapper-max-width: 1680px; */
+    --wrapper-max-width: 55rem;
 
 }
